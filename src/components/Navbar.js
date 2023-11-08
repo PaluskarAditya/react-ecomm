@@ -26,7 +26,7 @@ export default function Navbar() {
                 </div>
                 <div className='mt-1'>
                 <button className='flex justify-center items-center w-full rounded-md bg-black text-white text-sm p-2 py-[5px] mt-2'>
-                  <img src='/google.png' height={14} width={14} />
+                  <img src='/google.png' height={14} width={14} />  
                   <p className='ml-2 text-sm'>Google</p>
                 </button>
                 </div>
@@ -61,8 +61,8 @@ export default function Navbar() {
         </li>
       </ul>
       <ul className='flex justify-between items-center gap-4'>
-        <li>
-          <Link to={'/'} onClick={() => setDisp(!display)} >login</Link>
+        <li className='cursor-pointer'> 
+          <p onClick={() => setDisp(!display)} >login</p>
         </li>
         <li>
           <button className='py-2 bg-black text-white rounded-xl px-3'>

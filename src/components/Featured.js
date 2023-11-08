@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom'
 export default function Featured() {
   const prods = [
     {id: 1, src: "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?q=80&w=2825&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", price: 400},
-    {id: 1, src: "https://images.unsplash.com/photo-1594938291221-94f18cbb5660?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", price: 278},
-    {id: 1, src: "https://images.unsplash.com/photo-1598032895455-526c9e347a87?q=80&w=2442&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", price: 600},
-    {id: 1, src: "https://images.unsplash.com/photo-1598032895511-2692303da2af?q=80&w=2607&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", price: 550},
+    {id: 2, src: "https://images.unsplash.com/photo-1593726891090-b4c6bc09c819?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", price: 278},
+    {id: 3, src: "https://images.unsplash.com/photo-1582552938357-32b906df40cb?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", price: 600},
+    {id: 4, src: "https://images.unsplash.com/photo-1509942774463-acf339cf87d5?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvb2RpZXN8ZW58MHx8MHx8fDA%3D", price: 550},
   ]
   return (
     <div className='w-full mt-8 flex flex-col'>

@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Product({ src, price }) {
   return (
-    <div className='flex flex-col border border-gray-200 rounded-md p-4'>
+    <div className='flex flex-col border border-gray-300 rounded-md p-4'>
       <div className='h-[17rem] w-full'>
-        <img src={src} className='rounded-md w-full h-full object-cover object-top' />
+        <img src={src} alt='hero-poster' className='rounded-md w-full h-full object-cover object-top' />
       </div>
       <div className='flex justify-between items-center mt-3'>
         <div className='flex flex-col justify-center items-start'>
